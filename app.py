@@ -1,5 +1,14 @@
+import sys
+print("Python version:", sys.version)
+print("Streamlit importing...")
+
+
 # app.py - IN SPACE FURNITURE - BASIC VERSION
+
+
 import streamlit as st
+# ADD THIS AT THE TOP OF app.py
+
 
 st.set_page_config(page_title="IN SPACE", layout="wide")
 st.title("🪑 IN SPACE FURNITURE")
